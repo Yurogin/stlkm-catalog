@@ -6,19 +6,8 @@
 
 schema = 1
 
-# ── Outil en ligne de commande : on ouvre un terminal dessus ─────────────────
 [[project]]
 id = "cleanfiles"
-name = "CleanFiles"
-summary = "Rangement automatique de dossiers"
-tags = ["cli", "utilitaire"]
-icon = "🧹"
-source = { kind = "github-repo", repo = "Gabriel-SEMPERE/cleanFiles" }
+name = "cleanFiles"
+source = { kind = "github-repo", repo = "Yurogin/cleanFiles" }
 launch = { kind = "terminal", command = { windows = "python cleanfiles.py", linux = "python3 cleanfiles.py" } }
-
-[[project]]
-id = "lovesteamfreegame"
-name = "loveSteamFreeGame"
-source = { kind = "local", path = "C:\\Users\\favou\\Desktop\\Code\\loveSteamFreeGame" }
-install = "npm ci"
-launch = { kind = "terminal", command = "npm start" }
