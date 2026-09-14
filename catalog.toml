@@ -1,0 +1,24 @@
+# Catalogue STLKM — schéma v1
+#
+# Le contenu du dépôt `stlkm-catalog` : la liste des applications que les
+# utilisateurs du hub peuvent installer. Tu l'édites depuis l'Atelier ou à la
+# main ; les binaires, eux, restent dans les GitHub Releases de chaque projet.
+
+schema = 1
+
+# ── Outil en ligne de commande : on ouvre un terminal dessus ─────────────────
+[[project]]
+id = "cleanfiles"
+name = "CleanFiles"
+summary = "Rangement automatique de dossiers"
+tags = ["cli", "utilitaire"]
+icon = "🧹"
+source = { kind = "github-repo", repo = "Gabriel-SEMPERE/cleanFiles" }
+launch = { kind = "terminal", command = { windows = "python cleanfiles.py", linux = "python3 cleanfiles.py" } }
+
+[[project]]
+id = "lovesteamfreegame"
+name = "loveSteamFreeGame"
+source = { kind = "local", path = "C:\\Users\\favou\\Desktop\\Code\\loveSteamFreeGame" }
+install = "npm ci"
+launch = { kind = "terminal", command = "npm start" }
