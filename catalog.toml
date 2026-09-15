@@ -7,6 +7,9 @@
 schema = 1
 
 # Dépôts que le répertoire n'affiche pas
+hidden = ["cleanfiles"]
+
+# Dépôts que le répertoire n'affiche pas
 
 # Dépôts que le répertoire n'affiche pas
 
