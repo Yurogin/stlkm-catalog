@@ -6,8 +6,19 @@
 
 schema = 1
 
+# Dépôts que le répertoire n'affiche pas
+hidden = ["fnfcli"]
+
+# Dépôts que le répertoire n'affiche pas
+
 [[project]]
 id = "cleanfiles"
 name = "cleanFiles"
 source = { kind = "github-repo", repo = "Yurogin/cleanFiles" }
 launch = { kind = "terminal", command = { windows = "python cleanfiles.py", linux = "python3 cleanfiles.py" } }
+
+[[project]]
+id = "easystart"
+name = "easyStart"
+source = { kind = "github-repo", repo = "Yurogin/easyStart" }
+launch = { kind = "terminal", command = { windows = "python easyStart.py", linux = "python3 easyStart.py" } }
