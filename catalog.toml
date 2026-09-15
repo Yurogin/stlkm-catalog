@@ -7,7 +7,6 @@
 schema = 1
 
 # Dépôts que le répertoire n'affiche pas
-hidden = ["fnfcli"]
 
 # Dépôts que le répertoire n'affiche pas
 
