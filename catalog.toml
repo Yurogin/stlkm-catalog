@@ -9,12 +9,6 @@ schema = 1
 # Dépôts que le répertoire n'affiche pas
 hidden = ["cleanfiles"]
 
-# Dépôts que le répertoire n'affiche pas
-
-# Dépôts que le répertoire n'affiche pas
-
-# Dépôts que le répertoire n'affiche pas
-
 [[project]]
 id = "cleanfiles"
 name = "cleanFiles"
@@ -26,3 +20,10 @@ id = "easystart"
 name = "easyStart"
 source = { kind = "github-repo", repo = "Yurogin/easyStart" }
 launch = { kind = "terminal", command = { windows = "python easyStart.py", linux = "python3 easyStart.py" } }
+
+[[project]]
+id = "klaxon"
+name = "Klaxon"
+summary = "Klaxonne tes potes d'ordinateur à ordinateur : une touche qui marche partout, en fond à côté de l'horloge."
+source = { kind = "github-repo", repo = "Yurogin/klaxon" }
+launch = { kind = "process", exec = { windows = "windows/Klaxon.exe" } }
