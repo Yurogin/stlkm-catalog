@@ -7,7 +7,7 @@
 schema = 1
 
 # Dépôts que le répertoire n'affiche pas
-hidden = ["cleanfiles", "discordb"]
+hidden = ["cleanfiles", "discordb", "yurogin"]
 
 [[project]]
 id = "cleanfiles"
@@ -20,6 +20,12 @@ id = "easystart"
 name = "easyStart"
 source = { kind = "github-repo", repo = "Yurogin/easyStart" }
 launch = { kind = "terminal", command = { windows = "python easyStart.py", linux = "python3 easyStart.py" } }
+
+[[project]]
+id = "tokenlauncherdiscordclean"
+name = "Token Launcher"
+source = { kind = "github-repo", repo = "Yurogin/tokenLauncherDiscordClean" }
+launch = { kind = "terminal", command = "npm start" }
 
 [[project]]
 id = "klaxon"
