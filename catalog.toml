@@ -22,9 +22,9 @@ source = { kind = "github-repo", repo = "Yurogin/easyStart" }
 launch = { kind = "terminal", command = { windows = "python easyStart.py", linux = "python3 easyStart.py" } }
 
 [[project]]
-id = "tokenlauncherdiscordclean"
+id = "tokenlauncherdiscord"
 name = "Token Launcher"
-source = { kind = "github-repo", repo = "Yurogin/tokenLauncherDiscordClean" }
+source = { kind = "github-repo", repo = "Yurogin/tokenLauncherDiscord" }
 launch = { kind = "terminal", command = "npm start" }
 
 [[project]]
