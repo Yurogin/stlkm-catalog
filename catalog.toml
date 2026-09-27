@@ -1,4 +1,4 @@
-﻿# Catalogue STLKM — schéma v1
+# Catalogue STLKM — schéma v1
 #
 # Le contenu du dépôt `stlkm-catalog` : la liste des applications que les
 # utilisateurs du hub peuvent installer. Tu l'édites depuis l'Atelier ou à la
@@ -33,3 +33,10 @@ name = "Klaxon"
 summary = "Klaxonne tes potes d'ordinateur à ordinateur : une touche qui marche partout, en fond à côté de l'horloge."
 source = { kind = "github-repo", repo = "Yurogin/klaxon" }
 launch = { kind = "process", exec = { windows = "windows/Klaxon.exe" } }
+
+[[project]]
+id = "perquiz"
+name = "Perquiz"
+summary = "Une perquisition de ton disque déguisée en quiz : dix questions sur ton PC, fouillé pour de vrai pendant que tu réponds."
+source = { kind = "github-repo", repo = "Yurogin/Perquiz" }
+launch = { kind = "process", exec = { windows = "Perquiz.exe" } }
