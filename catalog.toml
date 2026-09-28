@@ -31,8 +31,8 @@ launch = { kind = "terminal", command = "npm start" }
 id = "klaxon"
 name = "Klaxon"
 summary = "Klaxonne tes potes d'ordinateur à ordinateur : une touche qui marche partout, en fond à côté de l'horloge."
-source = { kind = "github-repo", repo = "Yurogin/klaxon" }
-launch = { kind = "process", exec = { windows = "windows/Klaxon.exe" } }
+source = { kind = "github-release", repo = "Yurogin/klaxon", asset = { windows = "Klaxon.exe" } }
+launch = { kind = "process", exec = { windows = "Klaxon.exe" } }
 
 [[project]]
 id = "perquiz"
