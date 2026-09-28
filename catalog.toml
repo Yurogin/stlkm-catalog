@@ -31,8 +31,8 @@ launch = { kind = "terminal", command = "npm start" }
 id = "klaxon"
 name = "Klaxon"
 summary = "Klaxonne tes potes d'ordinateur à ordinateur : une touche qui marche partout, en fond à côté de l'horloge."
-source = { kind = "github-release", repo = "Yurogin/klaxon", asset = { windows = "Klaxon.exe" } }
-launch = { kind = "process", exec = { windows = "Klaxon.exe" } }
+source = { kind = "github-release", repo = "Yurogin/klaxon", asset = { windows = "Klaxon.exe", android = "Klaxon-telephone.apk" } }
+launch = { kind = "process", exec = { windows = "Klaxon.exe", android = "fr.stlkm.klaxon" } }
 
 [[project]]
 id = "perquiz"
@@ -40,3 +40,11 @@ name = "Perquiz"
 summary = "Une perquisition de ton disque déguisée en quiz : dix questions sur ton PC, fouillé pour de vrai pendant que tu réponds."
 source = { kind = "github-repo", repo = "Yurogin/Perquiz" }
 launch = { kind = "process", exec = { windows = "Perquiz.exe" } }
+
+[[project]]
+id = "stlkm-mobile"
+name = "STLKM mobile"
+summary = "Le hub sur téléphone : tes applis Android en un endroit, installées et tenues à jour."
+platforms = ["android"]
+source = { kind = "github-release", repo = "Yurogin/stlkm-mobile", asset = { android = "STLKM.apk" } }
+launch = { kind = "process", exec = { android = "fr.stlkm.hub" } }
